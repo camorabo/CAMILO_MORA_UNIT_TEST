@@ -17,6 +17,7 @@ public class UnitTestSample {
         System.out.println("8. Convert from Celsius to Fahrenheit.");
         System.out.println("10. Based two numbers return devisible");
         System.out.println("16. Sum the digits of a 4-digit number");
+        System.out.println("20. Exit");
         
         Scanner in = new Scanner(System.in);
         String userResult = in.next();
@@ -55,6 +56,9 @@ public class UnitTestSample {
                 } else {
                     System.out.println("The sum of the digits is: " + resultDigitSum);
                 }
+                break;
+            case "20":
+                System.out.print("This program will be closed");
                 break;
             default:
                 throw new AssertionError();

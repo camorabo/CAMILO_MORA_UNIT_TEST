@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Natucha
+ * @author Camilo Mora
  */
 public class UnitTestSample {
 
